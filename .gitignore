@@ -51,7 +51,36 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# Distribution / packaging
+build/
+MANIFEST
+build
+site
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
 # debug information files
 *.dwo
 
-# Jeprof Artifacts
+# Visual Studio / Visual Studio Code
+/.vs/
+/.vscode/
+/out/
+
+# documentation
+/html
+/docs/site/
+/docs/venv/
+
+# mkdocs documentation
+/site
+mkdocs_material.egg-info
+
+/build*
+
+# Jeprof
+.jeprof/
+
